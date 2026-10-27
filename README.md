@@ -1,0 +1,1 @@
+# fs-rules-academy
