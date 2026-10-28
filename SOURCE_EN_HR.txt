@@ -1,0 +1,626 @@
+FS RULES 2026 v1.1 — ENGLISH / HRVATSKI
+Izvor: korisnikov spojeni tekst i priloženi dvojezični PDF. Hrvatski prijevod je informativan.
+
+A. POJMOVNIK / GLOSSARY
+Term FS Rules / full name Hrvatski English
+VCU Vehicle Control Unit upravljačka jedinica
+vozila; nije službena
+kratica u popisu FS
+Rules
+vehicle control unit;
+not an official
+abbreviation in the FS
+Rules list
+AIR Accumulator Isolation
+Relay
+kontaktorski element
+za izoliranje TS
+akumulatora
+relay/contactor
+isolating the TS
+accumulator
+BOM Bill of Material popis materijala i
+komponenti
+list of materials and
+components
+BSPD Brake System
+Plausibility Device
+neprogramabilni
+sigurnosni sklop za
+provjeru istodobnog
+kočenja i pogona
+non-programmable
+safety circuit checking
+simultaneous braking
+and propulsion
+ESO Electrical System
+Officer
+odgovorna
+kvalificirana osoba za
+električnu sigurnost
+na natjecanju
+qualified person
+responsible for
+electrical safety at the
+event
+HV High Voltage visoki napon; nije
+sinonim za cijeli TS
+high voltage; not
+synonymous with the
+entire TS
+LV Low Voltage niski napon low voltage
+LVMS Low Voltage Master
+Switch
+glavna sklopka
+niskonaponskog
+sustava
+low-voltage master
+switch
+BMS Battery Management
+System
+uobičajeni naziv; FS
+Rules za TS koristi
+AMS
+common industry
+term; FS Rules uses
+AMS for the TS
+AMS Accumulator
+Management System
+sustav nadzora TS
+akumulatora
+TS accumulator
+monitoring system
+TS Tractive System električni pogonski
+sustav
+electrical traction
+system
+TSAL Tractive System
+Active Light
+indikator stanja TS-a TS status light
+TSAC Tractive System
+Accumulator
+Container
+kućište TS
+akumulatora
+TS accumulator
+enclosure
+TSMS Tractive System
+Master Switch
+glavna sklopka TS-a TS master switch
+FS Rules 2026 v1.1 • Learning companion / Skripta za učenje
+LVS Low Voltage System niskonaponski sustav low-voltage system
+SDC Shutdown Circuit sigurnosni krug
+isključivanja
+shutdown safety
+circuit
+DC Direct Current istosmjerna
+struja/napon
+direct current
+AC RMS Alternating Current
+Root Mean Square
+efektivna vrijednost
+izmjeničnog napona
+RMS value of
+alternating voltage
+
+B. PRAVILA / RULES
+
+EV1.1.1
+ENGLISH:
+Tractive System (TS) – every part that is electrically connected to the motors and TS accumulators. The LVS may be supplied by the TS if a galvanic isolation between both systems is ensured.
+
+HRVATSKI:
+Tractive System (TS) — svaki dio koji je električno povezan s motorima i TS akumulatorima. LVS se može napajati iz TS-a ako je između tih sustava osigurana galvanska izolacija.
+
+-----------------------------------------------------------------
+
+EV1.1.2
+ENGLISH:
+TS enclosures – every housing or enclosure that contains parts of the TS.
+
+HRVATSKI:
+TS kućišta — svako kućište ili zaštitni omotač koji sadrži dijelove TS-a.
+
+-----------------------------------------------------------------
+
+EV1.2.1
+ENGLISH:
+Galvanic Isolation – two electric circuits are defined as galvanically isolated if all of the following conditions are true: • The resistance between both circuits is ≥500 Ω/V, related to the maximum TS voltage of the vehicle, at a test voltage of maximum TS voltage or 250 V, whichever is higher. • The isolation test voltage RMS, AC for 1 min, between both circuits is higher than three times the maximum TS voltage or 750 V, whichever is higher. • The working voltage of the isolation barrier, if specified in the datasheet, is higher than the maximum TS voltage. Capacitors that bridge galvanic isolation must be class-Y capacitors.
+
+HRVATSKI:
+Galvanska izolacija — dva električna kruga galvanski su izolirana ako su ispunjeni svi uvjeti: (1) otpor između krugova iznosi najmanje 500 Ω/V najvećeg TS napona vozila, pri ispitnom naponu koji je veći od najvećeg TS napona i 250 V; (2) ispitni AC RMS napon izolacije tijekom jedne minute veći je od trostrukog najvećeg TS napona ili 750 V, ovisno o tome što je veće; (3) radni napon izolacijske barijere, ako je naveden u podatkovnom listu, veći je od najvećeg TS napona. Kondenzatori koji premošćuju izolaciju moraju biti klase Y.
+
+-----------------------------------------------------------------
+
+EV1.2.2
+ENGLISH:
+High Current Path – any path of a TS circuitry that, during normal operation, carries more than 1 A.
+
+HRVATSKI:
+Put velike struje — svaki put u TS strujnom krugu kojim u normalnom radu prolazi više od 1 A.
+
+-----------------------------------------------------------------
+
+EV2.1.1
+ENGLISH:
+Only electric motors are allowed.
+
+HRVATSKI:
+Dopušteni su samo električni motori.
+
+-----------------------------------------------------------------
+
+EV2.1.2
+ENGLISH:
+Motor attachments must follow T10.
+
+HRVATSKI:
+Pričvršćenja motora moraju biti u skladu s T10 (zahtjevi za pričvrsne elemente).
+
+-----------------------------------------------------------------
+
+EV2.1.3
+ENGLISH:
+Motor casings must follow T7.3.
+
+HRVATSKI:
+Kućišta motora moraju biti u skladu s T7.3 (zahtjevi za zaštitu i kućišta pogonskog sklopa).
+
+-----------------------------------------------------------------
+
+EV2.1.4
+ENGLISH:
+The motor(s) must be connected to the TS accumulator through a motor controller.
+
+HRVATSKI:
+Motori moraju biti spojeni s TS akumulatorom preko upravljača motora.
+
+-----------------------------------------------------------------
+
+EV2.2.1
+ENGLISH:
+The TS power at the outlet of the TSAC must not exceed 80 kW.
+
+HRVATSKI:
+TS snaga na izlazu TSAC-a ne smije prelaziti 80 kW.
+
+-----------------------------------------------------------------
+
+EV2.2.2
+ENGLISH:
+The TS current at the outlet of the TSAC must not exceed 500 A.
+
+HRVATSKI:
+TS struja na izlazu TSAC-a ne smije prelaziti 500 A.
+
+-----------------------------------------------------------------
+
+EV2.2.3
+ENGLISH:
+Regenerating energy is allowed and unrestricted with regard to power.
+
+HRVATSKI:
+Regeneracija energije dopuštena je i nije ograničena s obzirom na snagu.
+
+-----------------------------------------------------------------
+
+EV2.2.4
+ENGLISH:
+Wheels must not be spun in reverse.
+
+HRVATSKI:
+Kotači se ne smiju okretati u suprotnom smjeru.
+
+-----------------------------------------------------------------
+
+EV3.1.1
+ENGLISH:
+TS enclosures, see EV1.1.2, must consist of either • a grounded solid layer made of at least 0.5 mm thick electrically conductive material, aluminium or better, see EV3.1.3 or • be made out of electrically insulating materials providing an isolation resistance of at least 2 MΩ, measured at a voltage of 500 V, between the inside and the outside of the enclosure. The TS enclosure must be rigid and must prevent possible mechanical penetrations. Protruding electrically conductive parts, such as fasteners or connectors, must follow EV3.1.2 The TSAC might use at least 0.9 mm thick steel layer as the grounded layer.
+
+HRVATSKI:
+TS kućišta, vidi EV1.1.2 (kućišta koja sadrže TS dijelove), moraju imati uzemljeni čvrsti sloj električno vodljivog materijala debljine najmanje 0,5 mm, aluminija ili boljeg, vidi EV3.1.3 (uvjeti uzemljenja), ILI biti od električno izolacijskog materijala s izolacijskim otporom najmanje 2 MΩ između unutrašnjosti i vanjštine pri 500 V. Kućište mora biti kruto i spriječiti mehanički prodor. Izbočeni vodljivi dijelovi moraju slijediti EV3.1.2 (uzemljenje određenih vodljivih dijelova). TSAC smije imati uzemljeni čelični sloj debljine najmanje 0,9 mm.
+
+-----------------------------------------------------------------
+
+EV3.1.2
+ENGLISH:
+Electrically conductive seat, driver harness, and firewall mounting points as well as the aluminium layer of the TS firewall, see T4.8, and the LVS ground measuring point, see EV4.7.8, must be grounded, see EV3.1.3.
+
+HRVATSKI:
+Vodljive točke pričvršćenja sjedala, pojasa i pregrade, aluminijski sloj TS pregrade, vidi T4.8 (pregrada), te LVS mjerna točka uzemljenja, vidi EV4.7.8 (mjerna točka), moraju biti uzemljeni prema EV3.1.3 (otpor i strujna nosivost uzemljenja).
+
+-----------------------------------------------------------------
+
+EV3.1.3
+ENGLISH:
+An electrically conductive part is grounded if its resistance to LVS ground is below 100 mΩ, measured with a current of 1 A, and the grounding wire is able to continuously carry at least 10 % of the TS accumulator main fuse current rating.
+
+HRVATSKI:
+Vodljivi dio smatra se uzemljenim ako mu je otpor prema LVS masi manji od 100 mΩ, mjeren strujom 1 A, a vodič uzemljenja može trajno prenositi najmanje 10 % nazivne struje glavnog osigurača TS akumulatora.
+
+-----------------------------------------------------------------
+
+EV3.1.4
+ENGLISH:
+Parts of the vehicle which are or may become electrically conductive within 100 mm of any TS component must have a resistance below 100 Ω to LVS ground.
+
+HRVATSKI:
+Dijelovi vozila koji su ili mogu postati vodljivi i nalaze se unutar 100 mm od bilo kojeg TS dijela moraju imati otpor prema LVS masi manji od 100 Ω.
+
+-----------------------------------------------------------------
+
+EV3.1.5
+ENGLISH:
+The rotating part of the wheels does not need to be grounded.
+
+HRVATSKI:
+Rotirajući dio kotača ne mora biti uzemljen.
+
+-----------------------------------------------------------------
+
+EV3.2.1
+ENGLISH:
+All electric systems must have appropriate overcurrent protection.
+
+HRVATSKI:
+Svi električni sustavi moraju imati odgovarajuću nadstrujnu zaštitu.
+
+-----------------------------------------------------------------
+
+EV3.2.2
+ENGLISH:
+The continuous current rating of the overcurrent protection must not be greater than the continuous current rating of any electric component, for example, wire, busbar, or other conductors that it protects. I.e. if multiple pins of a connector are used to carry currents in parallel, each pin must be appropriately protected.
+
+HRVATSKI:
+Nazivna trajna struja nadstrujne zaštite ne smije biti veća od nazivne trajne struje bilo koje komponente koju štiti, primjerice žice, sabirnice ili drugog vodiča. Ako se više pinova konektora koristi paralelno, svaki pin mora biti odgovarajuće zaštićen.
+
+-----------------------------------------------------------------
+
+EV3.2.3
+ENGLISH:
+All used fuses must have an interrupt current rating that is higher than the theoretical short circuit current of the system that it protects.
+
+HRVATSKI:
+Svi osigurači moraju imati prekidnu moć veću od teorijske struje kratkog spoja sustava koji štite.
+
+-----------------------------------------------------------------
+
+EV3.2.4
+ENGLISH:
+All overcurrent protection devices must be rated for the highest voltage in the systems they protect. All devices used must be rated for DC.
+
+HRVATSKI:
+Svi uređaji nadstrujne zaštite moraju biti nazivno predviđeni za najveći napon sustava koji štite. Svi korišteni uređaji moraju biti prikladni za DC.
+
+-----------------------------------------------------------------
+
+EV3.2.5
+ENGLISH:
+All overcurrent protection devices that are part of the TS must not rely on programmable logic. The overcurrent protection function of motor controllers/inverters for the motor outputs may rely on programmable logic.
+
+HRVATSKI:
+Nadstrujna zaštita koja je dio TS-a ne smije ovisiti o programabilnoj logici. Iznimno, nadstrujna zaštita izlaza motora u upravljaču motora/inverteru smije ovisiti o programabilnoj logici.
+
+-----------------------------------------------------------------
+
+EV3.2.6
+ENGLISH:
+The overcurrent protection must be designed for the expected surrounding temperature range but at least for 0 ◦C to 85 ◦C
+
+HRVATSKI:
+Nadstrujna zaštita mora biti projektirana za očekivani raspon okolne temperature, ali najmanje za 0 °C do 85 °C.
+
+-----------------------------------------------------------------
+
+EV3.2.7
+ENGLISH:
+The TS high current path, see EV1.2.2, through the TS accumulator(s) must be fused.
+
+HRVATSKI:
+Put velike struje TS-a, vidi EV1.2.2 (TS put kojim pri normalnom radu prolazi više od 1 A), kroz TS akumulatore mora biti osiguran osiguračem.
+
+-----------------------------------------------------------------
+
+EV4.1.1
+ENGLISH:
+The maximum allowed voltage that may occur between any two electric connections is 600 VDC and for motor controller and AMS internal low power control signals 630 VDC.
+
+HRVATSKI:
+Najveći dopušteni napon između bilo koje dvije električne veze jest 600 V DC, odnosno 630 V DC za unutarnje upravljačke signale male snage upravljača motora i AMS-a.
+
+-----------------------------------------------------------------
+
+EV4.1.2
+ENGLISH:
+All components in the TS must be rated for the maximum TS voltage. The TS area of a PCB, see EV4.3.6, is considered as one component. Every input connected to the TS must be rated to the maximum TS voltage.
+
+HRVATSKI:
+Sve TS komponente moraju biti nazivne za najveći TS napon. TS područje PCB-a, vidi EV4.3.6 (razdvajanje TS i LVS područja na pločici i propisani razmaci), smatra se jednom komponentom. Svaki ulaz povezan s TS-om mora biti nazivno predviđen za najveći TS napon.
+
+-----------------------------------------------------------------
+
+EV4.1.3
+ENGLISH:
+All components must be rated for the maximum possible temperature that may occur during usage.
+
+HRVATSKI:
+Sve komponente moraju biti predviđene za najveću moguću temperaturu tijekom uporabe.
+
+-----------------------------------------------------------------
+
+EV4.2.1
+ENGLISH:
+TS enclosures, see EV1.1.2, must be labeled with reasonably sized stickers according to “ISO 7010-W012” (triangle with a black lightning bolt on a yellow background). The sticker must also contain the text “High Voltage” if the voltage is more than 60 VDC or 50 VACRMS.
+
+HRVATSKI:
+TS kućišta, vidi EV1.1.2 (kućišta koja sadrže TS dijelove), moraju imati naljepnice primjerene veličine prema ISO 7010-W012 (trokut s crnom munjom na žutoj podlozi). Naljepnica mora sadržavati tekst „High Voltage” ako napon prelazi 60 V DC ili 50 V AC RMS.
+
+-----------------------------------------------------------------
+
+EV4.3.1
+ENGLISH:
+The entire TS and LVS must be galvanically isolated, see EV1.2.1 and IN4.1.1.
+
+HRVATSKI:
+Cijeli TS i LVS moraju biti galvanski izolirani, vidi EV1.2.1 (kriteriji galvanske izolacije) i IN4.1.1 (provjera izolacije tijekom električnog tehničkog pregleda).
+
+-----------------------------------------------------------------
+
+EV4.3.2
+ENGLISH:
+All connections from a TS component to external devices, such as laptops must include galvanic isolation, see EV1.2.1.
+
+HRVATSKI:
+Svi spojevi od TS komponente prema vanjskim uređajima, primjerice prijenosnim računalima, moraju sadržavati galvansku izolaciju prema EV1.2.1 (otpornost, ispitni napon i nazivni radni napon izolacije).
+
+-----------------------------------------------------------------
+
+EV4.3.3
+ENGLISH:
+TS and LVS circuits must be physically segregated such that they are not running through the same conduit or connector, except for interlock circuit connections.
+
+HRVATSKI:
+TS i LVS krugovi moraju biti fizički razdvojeni tako da ne prolaze kroz istu zaštitnu cijev ili konektor, osim spojeva interlock kruga.
+
+-----------------------------------------------------------------
+
+EV4.3.4
+ENGLISH:
+Where both TS and LVS are present within an TS enclosure, they must be separated by barriers made of moisture-resistant insulating materials or maintain 20 mm spacing through air, or over a surface.
+
+HRVATSKI:
+Kad se TS i LVS nalaze u istom TS kućištu, moraju biti odvojeni pregradama od izolacijskog materijala otpornog na vlagu ili imati razmak od 20 mm kroz zrak ili po površini.
+
+-----------------------------------------------------------------
+
+EV4.3.5
+ENGLISH:
+Components and cables capable of movement must be positively restrained to maintain spacing.
+
+HRVATSKI:
+Komponente i kabeli koji se mogu pomicati moraju biti pouzdano učvršćeni radi održavanja razmaka.
+
+-----------------------------------------------------------------
+
+EV4.3.6
+ENGLISH:
+If TS and LVS are on the same PCB, they must be on separate well-defined areas of the board, meeting the spacing requirements in table 5, each area clearly marked with “TS” or “LV”. The outline of the area required for spacing must be marked. Groves and cut-outs must have a minimum width of 1.5 mm to influence the creepage path. “Conformal coating” refers to a coating insulator on a PCB. Solder resist is not a coating.
+
+HRVATSKI:
+Ako su TS i LVS na istom PCB-u, moraju biti u zasebnim, jasno definiranim područjima koja ispunjavaju razmake iz tablice 5. Svako područje mora biti označeno „TS” ili „LV”, a obris potrebnog područja razmaka označen. Utori i izrezi moraju biti široki najmanje 1,5 mm kako bi utjecali na puznu stazu. Conformal coating znači izolacijski premaz PCB-a; solder resist nije takav premaz. Tablica 5: 0–50 V DC: zračni razmak 1,0 mm, puzna staza 4 mm ili 1,0 mm uz premaz; 50–150 V DC: 1,0 mm, 5 mm ili 1,0 mm; 150–300 V DC: 1,5 mm, 10 mm ili 2,0 mm; 300–600 V DC: 3,0 mm, 20 mm ili 4,0 mm.
+
+-----------------------------------------------------------------
+
+EV4.3.7
+ENGLISH:
+Teams must be prepared to demonstrate spacing on team-built equipment. For inaccessible circuitry, fully assembled spare boards must be available.
+
+HRVATSKI:
+Timovi moraju biti spremni dokazati propisane razmake na opremi koju su sami izradili. Za nedostupne sklopove moraju imati potpuno sastavljene rezervne pločice.
+
+-----------------------------------------------------------------
+
+EV5.1.1
+ENGLISH:
+Cell – a battery cell or super-capacitor.
+
+HRVATSKI:
+Ćelija — baterijska ćelija ili superkondenzator.
+
+-----------------------------------------------------------------
+
+EV5.1.2
+ENGLISH:
+Cell Energy – the maximum cell voltage times the nominal capacity of the used cell.
+
+HRVATSKI:
+Energija ćelije — najveći napon ćelije pomnožen s nazivnim kapacitetom korištene ćelije.
+
+-----------------------------------------------------------------
+
+EV5.1.3
+ENGLISH:
+TS Accumulator – all cells that store the electric energy to be used by the TS as a whole.
+
+HRVATSKI:
+TS akumulator — sve ćelije koje kao cjelina pohranjuju električnu energiju namijenjenu TS-u.
+
+-----------------------------------------------------------------
+
+EV5.1.4
+ENGLISH:
+Tractive System Accumulator Container (TSAC) – the container itself, which contains the TS accumulator.
+
+HRVATSKI:
+Tractive System Accumulator Container (TSAC) — samo kućište koje sadrži TS akumulator.
+
+-----------------------------------------------------------------
+
+EV5.1.5
+ENGLISH:
+TS Accumulator Segments – sub-divisions of the TS accumulator.
+
+HRVATSKI:
+Segmenti TS akumulatora — podjele TS akumulatora na segmente.
+
+-----------------------------------------------------------------
+
+EV5.2.1
+ENGLISH:
+Molten salt and thermal batteries are prohibited.
+
+HRVATSKI:
+Zabranjene su baterije s rastaljenom soli i termalne baterije.
+
+-----------------------------------------------------------------
+
+EV5.2.2
+ENGLISH:
+Fuel cells are prohibited.
+
+HRVATSKI:
+Gorivni članci su zabranjeni.
+
+-----------------------------------------------------------------
+
+EV5.3.1
+ENGLISH:
+All cells that store the TS energy must be enclosed in TSACs.
+
+HRVATSKI:
+Sve ćelije koje pohranjuju energiju TS-a moraju biti zatvorene u TSAC-ovima.
+
+-----------------------------------------------------------------
+
+EV5.3.2
+ENGLISH:
+Each TS accumulator segment must not exceed a maximum static voltage of 120 VDC, a maximum energy of 6 MJ, see EV5.1.2, and a maximum mass of 12 kg.
+
+HRVATSKI:
+Svaki segment TS akumulatora ne smije premašiti najveći statički napon od 120 V DC, najveću energiju od 6 MJ, vidi EV5.1.2 (energija ćelije računa se kao najveći napon puta nazivni kapacitet), i najveću masu od 12 kg.
+
+-----------------------------------------------------------------
+
+EV5.3.3
+ENGLISH:
+Spare cells must be stored in an electrically insulated container made of fire retardant material, see T1.2.1. The cells must be securely fixed inside the container to prevent any movement. The container must be labeled as specified in EV5.3.7. If this container is placed within another container, the outer container must also be labeled in accordance with EV5.3.7.
+
+HRVATSKI:
+Rezervne ćelije moraju se čuvati u električno izoliranom kućištu od materijala koji usporava gorenje, vidi T1.2.1 (zahtjevi za vatrootporne materijale). Ćelije moraju biti čvrsto pričvršćene kako se ne bi pomicale. Kućište mora biti označeno prema EV5.3.7 (broj vozila, sveučilište, ESO telefoni, veličina i kontrast oznaka). Ako je to kućište unutar drugoga, vanjsko mora biti jednako označeno.
+
+-----------------------------------------------------------------
+
+EV5.3.4
+ENGLISH:
+Spare accumulators and spare cells must be presented at Technical Inspection in a container that complies with EV5.3.7.
+
+HRVATSKI:
+Rezervni akumulatori i ćelije moraju biti predstavljeni na tehničkom pregledu u kućištu koje odgovara EV5.3.7 (propisane oznake na kućištu).
+
+-----------------------------------------------------------------
+
+EV5.3.5
+ENGLISH:
+It must be possible to open the TSAC for Technical Inspection.
+
+HRVATSKI:
+TSAC se mora moći otvoriti radi tehničkog pregleda.
+
+-----------------------------------------------------------------
+
+EV5.3.6
+ENGLISH:
+Each TSAC must be removable from the vehicle while still remaining rules compliant without the need to install extra components. A dummy connector or similar may be used to restore the system’s isolation, see EV4.5.
+
+HRVATSKI:
+Svaki TSAC mora biti uklonjiv iz vozila uz zadržavanje usklađenosti s pravilima i bez dodavanja komponenti. Lažni konektor ili slično može se upotrijebiti za vraćanje izolacije sustava, vidi EV4.5 (zahtjevi za TS ožičenje i spojeve).
+
+-----------------------------------------------------------------
+
+EV5.3.7
+ENGLISH:
+The vehicle number, the university name, and the ESO phone numbers must be displayed and written in Roman Sans-Serif characters of at least 20 mm high on the lid of each TSAC. The characters must be clearly visible and placed on a high-contrast background.
+
+HRVATSKI:
+Broj vozila, naziv sveučilišta i telefonski brojevi ESO-a moraju biti prikazani na poklopcu svakog TSAC-a latiničnim sans-serif znakovima visine najmanje 20 mm. Znakovi moraju biti jasno vidljivi na podlozi visokog kontrasta.
+
+-----------------------------------------------------------------
+
+T11.1.1
+ENGLISH:
+The Low Voltage System (LVS) is defined as • [CV ONLY] all electrical circuits of the vehicle. • [EV ONLY] every electrical part that is not part of the TS, see EV1.1.1
+
+HRVATSKI:
+Niskonaponski sustav (LVS) definira se kao: [CV ONLY] svi električni krugovi vozila; [EV ONLY] svaki električni dio koji nije dio TS-a, vidi EV1.1.1 (definicija pogonskog sustava i uvjet galvanske izolacije napajanja LVS-a iz TS-a).
+
+-----------------------------------------------------------------
+
+T11.1.2
+ENGLISH:
+The maximum allowed voltage that may occur between any two electrical connections in the LVS is 60 VDC or 50 VACRMS.
+
+HRVATSKI:
+Najveći dopušteni napon između bilo koje dvije električne veze LVS-a jest 60 V DC ili 50 V AC RMS.
+
+-----------------------------------------------------------------
+
+T11.1.3
+ENGLISH:
+All LVS parts must be adequately insulated.
+
+HRVATSKI:
+Svi dijelovi LVS-a moraju biti odgovarajuće izolirani.
+
+-----------------------------------------------------------------
+
+T11.1.4
+ENGLISH:
+[CV ONLY] The following systems are excluded from the LVS voltage limit, see T11.1.2: • High voltage systems for ignition • High voltage systems for injectors • Voltages internal to unmodified OEM charging systems designed for <60 VDC output.
+
+HRVATSKI:
+[CV ONLY] Od naponskog ograničenja LVS-a iz T11.1.2 (60 V DC ili 50 V AC RMS) izuzeti su: visokonaponski sustavi paljenja, visokonaponski sustavi ubrizgavanja i naponi unutar neizmijenjenih OEM sustava punjenja projektiranih za izlaz ispod 60 V DC.
+
+-----------------------------------------------------------------
+
+T11.1.5
+ENGLISH:
+[CV ONLY] The maximum allowed voltage for motor controller/inverters internal low power control signals is 75 VDC
+
+HRVATSKI:
+[CV ONLY] Najveći dopušteni napon unutarnjih upravljačkih signala male snage upravljača motora/invertera jest 75 V DC.
+
+-----------------------------------------------------------------
+
+T11.1.6
+ENGLISH:
+[EV ONLY] The LVS must not use orange wiring or conduit.
+
+HRVATSKI:
+[EV ONLY] LVS ne smije koristiti narančaste vodiče ili zaštitne cijevi.
+
+-----------------------------------------------------------------
+
+T11.1.7
+ENGLISH:
+[EV ONLY] The LVS must be grounded to the chassis.
+
+HRVATSKI:
+[EV ONLY] LVS mora biti uzemljen na šasiju.
+
+-----------------------------------------------------------------
+
+T11.1.8
+ENGLISH:
+Batteries to operate a real-time clock as well as battery-operated driver communication and onboard cameras are not part of the LVS system
+
+HRVATSKI:
+Baterije za sat stvarnog vremena te baterijski napajani uređaji za komunikaciju vozača i kamere u vozilu nisu dio LVS-a.
+
+-----------------------------------------------------------------
+
+TABLICA 5 / TABLE 5 — EV4.3.6
+Voltage / Napon | Clearance / Zračni razmak | Creepage / Puzna staza | Conformal coating / Izolacijski premaz
+0–50 V DC | 1.0 mm | 4 mm | 1.0 mm
+50–150 V DC | 1.0 mm | 5 mm | 1.0 mm
+150–300 V DC | 1.5 mm | 10 mm | 2.0 mm
+300–600 V DC | 3.0 mm | 20 mm | 4.0 mm

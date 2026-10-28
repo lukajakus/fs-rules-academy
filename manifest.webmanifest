@@ -1,1 +1,14 @@
-{"name":"FS Rules Academy","short_name":"FS Academy","description":"Formula Student bilingual study companion","start_url":"./","scope":"./","display":"standalone","background_color":"#0b1220","theme_color":"#0b1220","icons":[{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]}
+{
+ "name": "FS Rules Academy — 2026",
+ "short_name": "FS Academy",
+ "description": "Dvojezično učenje pravila Formula Student 2026 v1.1",
+ "start_url": "./index.html",
+ "scope": "./",
+ "display": "standalone",
+ "background_color": "#101827",
+ "theme_color": "#101827",
+ "icons": [
+  {"src":"./icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},
+  {"src":"./icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
+ ]
+}
